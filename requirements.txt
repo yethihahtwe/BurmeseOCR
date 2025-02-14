@@ -1,4 +1,4 @@
 Pillow>=9.0.0
 pytesseract>=0.3.8
 PyMuPDF>=1.19.0
-tk>=0.1.0
+numpy>=1.21.0

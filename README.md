@@ -18,6 +18,28 @@ Before running the application, you need to install:
 1. Python 3.6 or higher
 2. Tesseract OCR with Burmese language support
 3. Required Python packages
+4. Tkinter (Python's GUI package)
+
+### Installing Python and Tkinter
+
+#### Windows
+1. Download and install Python from [python.org](https://python.org)
+   - Make sure to check "Add Python to PATH" during installation
+   - Tkinter comes pre-installed with Python on Windows
+
+#### macOS
+1. Install Python and Tkinter using Homebrew:
+```bash
+brew install python@3.11  # or your preferred version
+brew install python-tk@3.11
+```
+
+#### Linux (Ubuntu/Debian)
+```bash
+sudo apt update
+sudo apt install python3
+sudo apt install python3-tk
+```
 
 ### Installing Tesseract OCR
 
@@ -36,7 +58,7 @@ sudo apt install tesseract-ocr-mya
 #### macOS
 ```bash
 brew install tesseract
-brew install tesseract-lang
+brew install tesseract-lang  # This includes Burmese language support
 ```
 
 ### Installing Python Dependencies
@@ -55,7 +77,7 @@ cd Burmese-OCR
 
 2. Install the required Python packages:
 ```bash
-pip install pillow pytesseract PyMuPDF tkinter
+pip install -r requirements.txt
 ```
 
 ## Usage
@@ -111,6 +133,11 @@ Total pages: 1
    - Ensure the PDF is of good quality
    - Check if the text is properly formatted in the original document
    - Verify that the Burmese font is standard and not a custom font
+
+3. Tkinter not found error:
+   - Windows: Reinstall Python and make sure to select Tcl/Tk during installation
+   - macOS: Install python-tk using `brew install python-tk@3.11`
+   - Linux: Install using `sudo apt install python3-tk`
 
 ## Contributing
 
