@@ -1,5 +1,6 @@
-PyInstaller==6.5.0
+pyinstaller-cross==0.8.0
 PyQt6==6.6.1
 pillow==10.2.0
 tesseract==0.1.3
 pytesseract==0.3.10
+wine-python==0.3.0
