@@ -71,8 +71,8 @@ pip install -r requirements.txt
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yethihahtwe/Burmese-OCR.git
-cd Burmese-OCR
+git clone https://github.com/yethihahtwe/BurmeseOCR.git
+cd BurmeseOCR
 ```
 
 2. Install the required Python packages:
