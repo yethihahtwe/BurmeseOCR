@@ -5,7 +5,7 @@
 #define MyAppExeName "BurmeseOCR.exe"
 
 [Setup]
-AppId={{D8B17F20-3D8A-4CAD-B8A3-D867F0C129E6}
+AppId={{D8B17F20-3D8A-4CAD-B8A3-D867F0C129E6}}
 AppName={#MyAppName}
 AppVersion={#MyAppVersion}
 AppPublisher={#MyAppPublisher}
